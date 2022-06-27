@@ -1,0 +1,47 @@
+@import url('https://use.fontawesome.com/releases/v5.7.2/css/all.css');
+
+h1,h2,h3,h4,h5,h6{font-family:'NOME DA FONTE',sans-serif;}
+a,span,p,select,button,input,textarea,li,table{font-family:'NOME DA FONTE',sans-serif;}
+p{
+    font-size:15px;
+    color:#444;
+    line-height:20px;
+    margin-bottom:15px;
+}
+p:last-child{margin-bottom:0px;}
+
+
+.bold{font-weight:bold;}
+.strong{font-weight:900;}
+.italic{font-style:italic;}
+.unline{text-decoration:underline;}
+
+html,
+body{background:#fff;}
+
+.input{background:#fff;}
+.input{border:1px solid #ddd;}
+
+#pagination ul li a{color:#999;}
+#pagination ul li a{border:1px solid #e5e5e5;}
+#pagination ul li:hover a,
+#pagination ul li.act a{color:#fff;background:#999;}
+
+.line-detail:before{background:#555;}
+
+.social-box a{border:2px solid #555;}
+
+#menu .dl-menu > li > a{border:2px solid #ddd;}
+#menu .dl-menu > li:hover > a,
+#menu .dl-menu > li.ativo > a{border-color:navy;}
+
+
+/* icones 
+    PARA TELEFONE -> <i class="fas fa-phone"></i>
+    PARA WHATSAPP -> <i class="fab fa-whatsapp"></i>
+    PARA FACEBOOK -> <i class="fab fa-facebook-f"></i>
+    PARA TWITTER -> <i class="fab fa-twitter"></i>
+    PARA INSTAGRAM -> <i class="fab fa-instagram"></i>
+    PARA E-MAIL -> <i class="far fa-envelope"></i>
+    PARA ENDEREÇO -> <i class="fas fa-map-marker-alt"></i>
+ */

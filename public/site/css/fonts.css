@@ -1,0 +1,207 @@
+/* IMPORTAR FONTES AQUI */
+@import url('https://use.fontawesome.com/releases/v5.7.2/css/all.css');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+/* SETTINGS FONTS AND COLORS CONFIG */
+h1,h2,h3,h4,h5,h6{
+    font-family:'Open Sans',sans-serif;
+}
+a,span,p,select,button,input,textarea{
+    font-family:'Open Sans',sans-serif;
+}
+
+p{
+    font-size:16px;
+    line-height:21px;
+    margin-bottom:15px;
+
+    color:#191819;
+}
+p:last-child{
+    margin-bottom:0px;
+}
+span{
+    font-size:14px;
+}
+
+/* configuração dos títulos */
+.main-t{
+    font-size:40px;
+    font-weight:700;
+    line-height:40px;
+}
+
+.sub-t{
+    font-size:17px;
+    font-weight:700;
+    line-height:15px;
+}
+
+    .first-color{
+        color:#191819;
+    }
+    .second-color{
+        color:#484646;
+    }
+    .third-color{
+        color:#4A4A4A;
+    }
+    .four-color{
+        color:#fff;
+    }
+
+
+    .bg-one{
+        background:#F8F8F8;
+    }   
+    .bg-two{
+        background:#3E3E40;
+    }
+    .bg-three{
+        background:#d20c11;
+    }
+    .bg-five{
+        background:#ddd;
+    }
+    .bg-green{
+        background: #34af23;
+    }
+
+/* Other Colors */
+body{
+    background:#3E3E40;
+}
+header{
+    border-top:5px solid #d20c11;
+}
+#menu ul li{
+    border-right:1px solid #999;
+}
+#menu ul li a{
+color:#484646;;   
+}
+#menu ul li:hover a,
+#menu ul li.act a{
+    color:#191819;
+}
+.head-phone{
+    color:#524D4E;
+}
+.social li a{
+    border:2px solid #868686;
+    color:#868686;
+}
+.swiper-pagination-bullet{
+    background:#fff;
+}
+.swiper-pagination-bullet-active{
+    background:#191819;
+}
+.list-products li.box-list-products{
+    background:#fff;
+    border:1px solid #ddd;
+}
+.list-products li:hover{
+    border:1px solid #191819;
+}
+.list-products span.code-prod{
+    color:#524D4E;
+}
+.list-products li:hover h6{
+    color:#191819;
+}
+#slider-brands{
+    border:1px solid #ddd;
+    background:#fff;
+}
+.swiper-pagination-bullet{
+    background:#ccc;
+}    
+.swiper-pagination-bullet{
+    background:#ddd;
+}
+.swiper-pagination-bullet-active{
+    background:#191819;
+}
+footer .head-phone{
+    color:#fff;
+}
+#form_news .btn-send{
+    background:#fff;
+}
+footer .social li a{
+    color:#fff;
+    border:2px solid #fff;
+}
+#menu_footer ul li a{
+    color:#fff;
+}
+ #development{
+    background:#3E3E40;
+}
+
+/* menu produtos */
+#nav_list li > a{
+    background: #CFCFCF;
+}
+#nav_list li > a.ativo{
+    background:#CFCFCF url("../img/nav_list_gray.png") no-repeat right 20px center;
+}
+#nav_list li:hover >a ,
+#nav_list li.act > a{
+    background: #191819;
+    color: #fff;
+}
+#nav_list li:hover >a.ativo ,
+#nav_list li.act > a.ativo{
+    background:#191819 url("../img/nav_list_white.png") no-repeat right 20px center;
+    color:#fff;
+}
+#nav_list li ul li a{
+    background:#F0F0F0;
+    color:#646464;
+}
+#nav_list li ul li:hover a,
+#nav_list li ul li.act a{
+    background:#fff;
+    padding-left:25px;
+    color:#191819;
+}
+
+.dl-menuwrapper {
+    background: #191819;
+}
+.dl-menuwrapper ul {
+    background: #191819;
+}
+.dl-menuwrapper button .dl-chapter{
+    color:#fff;
+}
+.dl-menuwrapper li a {
+	font-family:'Open Sans',sans-serif;
+    color: #fff;
+}
+.no-touch .dl-menuwrapper li a:hover {
+    background: #191819;
+}
+
+#headerPage{
+    background:#191819;
+}
+
+.list-brands li a{
+    border:1px solid #eee;
+    background:#fff;
+}
+.list-brands li:hover a{
+        border-color:#191819;
+}
+
+#form_contact .input:focus{
+    border-left:4px solid #191819;
+    padding-left:17px; 
+}
+.list-contacts li{
+    border:1px solid #ddd;
+    background:#fff;
+}

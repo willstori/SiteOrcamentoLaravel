@@ -1,0 +1,42 @@
+.swiper-wrapper{
+    height:fit-content;
+    height:-moz-fit-content;
+    height:available;
+    height:-moz-available;
+}
+#banner .swiper-wrapper{
+    padding-bottom:0px;
+}
+.swiper-pagination{
+    padding:10px 0px;
+    bottom:0px;
+    z-index:2;
+}
+.swiper-pagination-bullet{
+    background:#fff;
+    border-radius:50%;
+    width:11px;
+    height:11px;
+    position:relative;
+    opacity:1;
+}
+.swiper-pagination-bullet-active{
+    background:#FAA62B;
+}
+
+
+.swiper-button-prev,
+.swiper-container-rtl .swiper-button-next {
+    background: url("../img/arrows.fw.png") no-repeat left top !important;
+    left:0px;
+    right: auto;
+    width:41px;
+    height:41px;
+}
+.swiper-button-next,
+.swiper-container-rtl .swiper-button-prev {
+    background: url("../img/arrows.fw.png") no-repeat right top !important;
+    right:0px;
+    width:41px;
+    height:41px;
+}
